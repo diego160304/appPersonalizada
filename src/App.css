@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 768px) and (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
